@@ -1,0 +1,7 @@
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\bin\Debug\FirstProj.exe.config
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\bin\Debug\FirstProj.exe
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\bin\Debug\FirstProj.pdb
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\obj\Debug\FirstProj.csproj.AssemblyReference.cache
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\obj\Debug\FirstProj.csproj.CoreCompileInputs.cache
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\obj\Debug\FirstProj.exe
+D:\Computer Science\Scripts\C# Scripts\Beginner\FirstProj\obj\Debug\FirstProj.pdb
