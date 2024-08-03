@@ -51,8 +51,56 @@ namespace FirstProj
         
 
     }
-    //---------------Methods-----------------//
-    
+
+
+    //----------------------------------------Classes---------------------------------------------//
+    /* A Software models real world things (goods, cars, spheres) or abstract concepts like vectors, list, stacks etc as Objects.*/
+    // All those real world or abstract Objects have two distinct characteristics - State and Behaviour
+    // State - characteristics which define the condition of object at a given moment / general time
+    // State - represented by values of data members / fields / member variables
+    // Behaviour - specific distinctive actions that can be done by the objects 
+    // Behaviour - modelled by function members/ methods
+    // Class - User defined data type with template for field data & members which operate on this data(contructors,properties,methods,events,etc)
+    // The data members of class - field and properties are collectively called Attributes.
+    /* Properties - special elements which control access to fields, extend the functionality of the fields by giving the 
+     * ability of extra data management when extracting and recording it in the class fields (using get , set).*/ 
+    // Objects - Variables of this user-defined data type/class; called Instances of the class; object creation: Instantiation
+    // The state is specific to instance/object but behaviour is common to all instances of the class.
+
+
+    class EmptyMan      // class - keyword , followed by valid C# identifier
+    {
+                        // State, Behaviour are all optional
+    }                   // Empty class has many uses : Marker interfaces, Type parameters in generics, Singleton pattern, Placeholder Code, etc
+
+    public partial class Molecules // Syntax: Access-modifier Type-modifier class ClassName
+    {
+        public int radius;       // Instance Variable: All objects will have their own copy/different value of this field.
+        public float velocity;
+        public float charge;
+        public string name;
+        protected double VolumeConstant = 4 * Math.PI / 3;  // 
+
+        public void PrintState()
+        {
+            Console.WriteLine("This {0} molecule is moving with a speed {1}",name,velocity);
+        }
+
+        public void RadiusChange(int delta) => radius += delta;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    //---------------------------------Methods-------------------------------//
+
     class Arithmetic               // Every method must be contained within a class 
     {
         int Cube (int x)           // Syntax: modifiers type methodname(formal-parameter-list)
@@ -71,5 +119,12 @@ namespace FirstProj
         {
             Console.WriteLine("Sum is " + (x+y)); // return statement is omitted
         }
+
+        static int Add(int x, int y) => x + y; // Expression-bodied members shorten the syntax for single line methods
+        // The above is just syntactic sugar, i.e, the generated IL or CIL (Common Intermediate Language) is same.
+        // => Lambda Operation
     }
+
+    
+
 }
