@@ -1,0 +1,7 @@
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\bin\Debug\Learning Methods.exe.config
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\bin\Debug\Learning Methods.exe
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\bin\Debug\Learning Methods.pdb
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\obj\Debug\Learning Methods.csproj.AssemblyReference.cache
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\obj\Debug\Learning Methods.csproj.CoreCompileInputs.cache
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\obj\Debug\Learning Methods.exe
+D:\Computer Science\Scripts\C# Scripts\Learning Methods\Learning Methods\obj\Debug\Learning Methods.pdb
