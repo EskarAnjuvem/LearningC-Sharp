@@ -8,12 +8,24 @@ namespace Learning_Methods
 {
     internal class Program
     {
+        static public int Cube(int x)           // Syntax: modifiers type methodname(formal-parameter-list)
+        {                          // methodname is any valid C# identifier - Cube
+                                   // parameter list- contains all variable names with type which we give as input
+            return x * x * x;      // Type of value method returns (type in declaration)- can also be any class type
+        }
         static void Main(string[] args)
-        { }
+        {
+            int num;
+            Console.Write("Enter a Number for Cubing: ");
+            num = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("The cube is: {0}", Arithmetic.Cube(num));
+
+            Console.ReadLine();
+        }
         //---------------------------------Methods-------------------------------//
         class Arithmetic               // Every method must be contained within a class 
         {
-               int Cube(int x)           // Syntax: modifiers type methodname(formal-parameter-list)
+               public static int Cube(int x)           // Syntax: modifiers type methodname(formal-parameter-list)
                {                          // methodname is any valid C# identifier - Cube
                                        // parameter list- contains all variable names with type which we give as input
                    return x * x * x;      // Type of value method returns (type in declaration)- can also be any class type
@@ -34,6 +46,8 @@ namespace Learning_Methods
                                                    // The above is just syntactic sugar, i.e, the generated IL or CIL (Common Intermediate Language) is same.
                                                    // => Lambda Operation
         }
+
+
     }
 }
 

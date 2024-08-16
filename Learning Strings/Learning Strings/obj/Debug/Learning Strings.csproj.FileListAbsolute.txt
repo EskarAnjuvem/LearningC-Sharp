@@ -1,0 +1,7 @@
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\bin\Debug\Learning Strings.exe.config
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\bin\Debug\Learning Strings.exe
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\bin\Debug\Learning Strings.pdb
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\obj\Debug\Learning Strings.csproj.AssemblyReference.cache
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\obj\Debug\Learning Strings.csproj.CoreCompileInputs.cache
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\obj\Debug\Learning Strings.exe
+D:\Computer Science\Scripts\C# Scripts\Learning Strings\Learning Strings\obj\Debug\Learning Strings.pdb

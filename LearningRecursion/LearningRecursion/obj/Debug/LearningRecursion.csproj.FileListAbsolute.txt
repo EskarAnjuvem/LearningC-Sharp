@@ -1,0 +1,7 @@
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\bin\Debug\LearningRecursion.exe.config
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\bin\Debug\LearningRecursion.exe
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\bin\Debug\LearningRecursion.pdb
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\obj\Debug\LearningRecursion.csproj.AssemblyReference.cache
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\obj\Debug\LearningRecursion.csproj.CoreCompileInputs.cache
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\obj\Debug\LearningRecursion.exe
+D:\Computer Science\Scripts\C# Scripts\LearningRecursion\LearningRecursion\obj\Debug\LearningRecursion.pdb
