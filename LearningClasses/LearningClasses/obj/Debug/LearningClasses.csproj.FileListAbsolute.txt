@@ -1,0 +1,7 @@
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\bin\Debug\LearningClasses.exe.config
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\bin\Debug\LearningClasses.exe
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\bin\Debug\LearningClasses.pdb
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\obj\Debug\LearningClasses.csproj.AssemblyReference.cache
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\obj\Debug\LearningClasses.csproj.CoreCompileInputs.cache
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\obj\Debug\LearningClasses.exe
+D:\Computer Science\Scripts\C# Scripts\LearningClasses\LearningClasses\obj\Debug\LearningClasses.pdb
