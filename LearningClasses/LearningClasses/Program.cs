@@ -10,6 +10,43 @@ namespace LearningClasses
     {
         static void Main(string[] args)
         {
+            Console.Write("A-Constructor, B-Enum :");
+            string choiceInput = Console.ReadLine();
+            if (choiceInput == "A")
+            {
+                LearnConstructor();
+            }
+            else if (choiceInput == "B")
+            {
+                LearnEnum();
+            }
+            else
+            {
+                Console.WriteLine("No Valid Input");
+            }
+            
+            Console.ReadLine();
+        }
+
+        public static void LearnConstructor()
+        {
+
+        }
+
+        public class Student
+        {
+            public string fullName, course, subject, emailId, university;
+            public long phoneNumber;
+
+            public Student()
+            {
+
+            }
+
+        }
+
+        public static void LearnEnum()
+        {
             Console.WriteLine(Days.Monday is Days);  // Returns True
             // Each constant, declared within an enum is associated with a certain integer-by default for this hidden integer
             // representation, int is being used
@@ -24,12 +61,12 @@ namespace LearningClasses
             // But Size returns size of type enum CoffeeSize - gives textual description; to obtain numeric representation we use typecasting
 
             Coffee SecondCoffee = new Coffee(CoffeeSize.Double, Coffee.AddOn.Burger);
-            Console.WriteLine("The second order is {0} coffee of size {1} ml, with add-on {2}", SecondCoffee.Size,(int)SecondCoffee.Size,SecondCoffee.ExtraItem);
+            Console.WriteLine("The second order is {0} coffee of size {1} ml, with add-on {2}", SecondCoffee.Size, (int)SecondCoffee.Size, SecondCoffee.ExtraItem);
 
             Console.WriteLine("Coffee Sizes Available: Small = 100 ml, Normal = 150 ml, Double = 300 ml");
             Console.Write("Please Enter your Coffee Order Size(in ml): ");
             int orderSize = int.Parse(Console.ReadLine());
-            while (!Enum.IsDefined(typeof(CoffeeSize),orderSize))
+            while (!Enum.IsDefined(typeof(CoffeeSize), orderSize))
             {
                 Console.Write("Invalid Input. Please Input a Valid order size:");
                 orderSize = int.Parse(Console.ReadLine());
@@ -42,12 +79,10 @@ namespace LearningClasses
                 Console.Write("Invalid Input. Please Input a Valid Add-on order number:");
                 orderAddOn = int.Parse(Console.ReadLine());
             }
-            Coffee thirdOrder = new Coffee((CoffeeSize)orderSize, (Coffee.AddOn)orderAddOn );
+            Coffee thirdOrder = new Coffee((CoffeeSize)orderSize, (Coffee.AddOn)orderAddOn);
             Console.WriteLine("The third order is {0} coffee of size {1} ml and add on {2}", thirdOrder.Size, (int)thirdOrder.Size, thirdOrder.ExtraItem);
             Console.WriteLine($"The price for your Coffee order is {thirdOrder.CoffeePrice() + thirdOrder.AddOnPrice()}.");
-            Console.ReadLine();
         }
-
         class Coffee
         {
             private CoffeeSize size; // note we define a field variable of type enum Coffeesize
